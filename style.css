@@ -161,6 +161,10 @@ body {
     font-size: 0.9em;
 }
 
+#form footer {
+    font-size: 0.8em;
+}
+
 #form input:focus {
     outline: none;
     transform: scale(1.05);

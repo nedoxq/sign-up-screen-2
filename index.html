@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Sign Up Screen #2</title>
+</head>
+
+<body>
+    <aside id="img">
+        <img src="photos/undraw_join_re_w1lh.svg" alt="join">
+    </aside>
+    <div id="form">
+        <form action="/registration">
+            <header>
+                <h1 id="welcome">Welcome</h1>
+                <h2>Please register in the form below.</h1>
+            </header>
+            <section id="data-input">
+                <label for="e-mail"><i class="bx bxs-envelope"></i> E-mail</label>
+                <input type="text" id="e-mail" name="e-mail" autocomplete="off" class="input" required>
+                <label for="password"><i class="bx bxs-lock"></i> Password</label>
+                <input type="password" id="password" name="password" autocomplete="off" class="input" required>
+            </section>
+            <section id="terms">
+                <input type="checkbox" id="checkbox" name="checkbox" required>
+                <label for="checkbox">I agree to the <a href="/terms-of-service">Terms of Service</a> and <a
+                        href="/privacy-policy">Privacy Policy</a></label>
+            </section>
+            <a href="/registration" id="register-button" class="input">Register</a>
+            <footer>
+                <p>Already registered? <a href="/log-in"><br> Click here </a>to log in.</p>
+            </footer>
+
+        </form>
+    </div>
+</body>
+
+</html>
